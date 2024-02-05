@@ -1,20 +1,12 @@
 # Testing Next.js
 
-```bash
-# Install dependencies
-npm install
 
-# Run development server
-npm run dev
-```
+This is a standard Next.js app deployed to [https://thorsten-testing-nextjs.netlify.app/](https://thorsten-testing-nextjs.netlify.app/)
 
-## What?
-
-This is a standard Next.js site.
-
-Apparently, on Netlify, pre-fetching doesn't work. Every click on a link causes a full page reload.
-
-
+**Apparently, on Netlify, pre-fetching doesn't work. Every click on a link causes a full page reload.** See here:
 
 https://github.com/mrnugget/testing-nextjs/assets/1185253/9042e4aa-ab6b-4035-8d22-88227cbeb8dd
 
+But when I run the production build locally with `npm run build && npm run start` it works. When deployed to Vercel it works too.
+
+Why?
